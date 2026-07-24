@@ -1,7 +1,7 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+While working at NorthStar Medical Group, they were dealing with a poor infrastructure due to an MSP's disorganized initial setup. One of the main risks they were concerned about was HIPAA compliance because employees had different levels of access based on their roles. When an employee left the company, their access was not always disabled, creating a risk that someone could access confidential information. Additionally, employee accounts were set up manually within the infrastructure, and there was no documentation of their permissions or passwords.
 
 ## Solution Overview
 [Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
