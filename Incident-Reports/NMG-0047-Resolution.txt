@@ -1,0 +1,9 @@
+Ticket number: NMG-0047
+Affected User: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates
+Root cause: Jane Cooper was added to the wrong OU as well as the Operations-Users security group; therefore, 
+she had access issues because of the incorrect placement.
+Fix applied: After locating Jane Cooper in the Operations group, I moved her to the HR group; 
+however, she didn't immediately appear in the HR console panel. I continued receiving an error when trying 
+to remove her from the Operations OU. To resolve the issue, I deleted the Operations OU, re-added the users,
+and refreshed the activity directory console; she then appeared correctly in the HR OU.
