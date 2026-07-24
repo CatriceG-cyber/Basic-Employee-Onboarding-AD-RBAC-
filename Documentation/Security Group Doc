@@ -1,1 +1,37 @@
+# Security Group Documentation
 
+## Domain Information
+
+**Domain Name:** NMG.com
+
+## Organizational Units (OUs)
+
+The following Organizational Units (OUs) were created to organize users by department:
+
+- Finance
+- Human Resources (HR)
+- Information Technology (IT)
+- Operations
+
+## Security Groups
+
+The following Active Directory security groups were created to implement Role-Based Access Control (RBAC):
+
+| Security Group | Purpose |
+
+| Finance-Users | Grants Finance employees access to finance-related resources and shared folders. |
+| HR-Users | Grants Human Resources staff access to employee records, onboarding documentation, and HR resources. |
+| IT-Users | Grants IT personnel administrative access to Active Directory, workstations, laptops, and other IT management tools. |
+| Operations-Users | Grants Operations staff access to scheduling, inventory management, and operational reports. |
+
+## RBAC Design
+
+Each department is assigned a dedicated security group. User permissions are granted through group membership rather than assigning permissions directly to individual accounts.
+
+This approach:
+
+- Simplifies permission management
+- Supports the Principle of Least Privilege
+- Improves scalability as the organization grows
+- Reduces administrative overhead
+- Makes auditing user permissions easier
