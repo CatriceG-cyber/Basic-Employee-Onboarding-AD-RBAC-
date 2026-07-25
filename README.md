@@ -25,5 +25,5 @@ I created an Active Directory domain for the company so that each employee would
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* I accomplished setting up a centralized system that allowed the company to become more secure and organized by implementing Active Directory with Organizational Units (OUs) and security groups. This provided a structured way to manage users and permissions across each department. By using Role-Based Access Control (RBAC), employees were only granted access to the resources needed for their job responsibilities. As a result, HIPAA compliance was no longer a risk, security risks were reduced, and the company was able to operate more efficiently and continue to thrive.
+* I also accomplished some challenges I encountered when I discovered that an employee had the wrong permissions because she had been placed in the wrong Organizational Unit (OU). I was able to correct the issue by moving her to the appropriate OU, which automatically applied the correct security policies and permissions. During the setup process, I also identified another configuration issue and resolved it, eliminating two security and management problems that no longer exist.
