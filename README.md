@@ -26,4 +26,5 @@ The solution was to setup a Active Directory domain for the company so that each
 ## Key Accomplishments
 * Built NMG.com domain from scratch
 * I accomplished setting up a centralized system that allowed the company to become more secure and organized and fully documented every step of the process.
+
 *I completed a mock support ticket where I discovered an employee had the wrong level of access because they were placed in the wrong Organizational Unit (OU).
