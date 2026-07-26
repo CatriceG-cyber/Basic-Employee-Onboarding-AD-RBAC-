@@ -6,7 +6,7 @@ This project was based on a fictional company called NorthStar Medical Group. Th
 ## Solution Overview
 The solution was to setup a Active Directory domain for the company so that each employee would have access to their systems. This solved the identity infrastructure issues by setting up Organizational Units (OUs) and applying different security policies. I then set up a domain controller to manage the domain and ensure that each employee logging in was properly authenticated.  A Role-Based Access Control (RBAC) model was implemented so employees were only granted access to the resources required for their role.
 ## Video Walkthrough
-[Loom](https://www.loom.com/share/aa5772f3b7424de1b1ab157cdc0974b2)
+[Loom](https://www.loom.com/share/d806f1fb6ed54ee68763b076f901b98e)
 
 ## Tools Used
 * Windows Server
